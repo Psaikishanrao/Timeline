@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading-container">
+        <img id="img" src="./pics/idicon.png" alt="Drone Icon" class="heading-icon">
+        <h1 class="heading-title">History of Drones</h1>
+    </div>
+    <div class="timeline-container">
+        <div class="timeline-item active" id="item-1">
+            <h3 class="timeline-date">2018</h3>
+            <img src="./pics/DJI-Phantom-4-RTK-Drone-01.jpg" alt="Image description" class="timeline-image">
+            <p class="timeline-description">The DJI Phantom 4 RTK was launched, setting a new standard for drone mapping and surveying with its high-precision GNSS module. This drone became a favorite in industries like construction, agriculture, and land surveying due to its ability to capture highly accurate data, reducing the need for ground control points.</p>
+        </div>
+        <div class="timeline-item" id="item-2">
+            <h3 class="timeline-date">2019</h3>
+            <img src="./pics/mavic.jpeg" alt="Image description" class="timeline-image">
+            <p class="timeline-description">The DJI Mavic Mini was introduced, targeting the consumer market with its ultra-compact design, weighing under 250 grams, which exempted it from certain regulations in many countries. Despite its small size, it offered impressive features like a 12MP camera capable of shooting 2.7K video, making it ideal for casual users and hobbyists.</p>
+        </div>
+        <div class="timeline-item" id="item-3">
+            <h3 class="timeline-date">2020</h3>
+            <img src="./pics/drone.jpg" alt="Image description" class="timeline-image">
+            <p class="timeline-description">The Parrot Anafi USA was launched, tailored for first responders and professionals needing a robust, portable drone with advanced imaging capabilities. It featured a 32x zoom camera and thermal imaging, making it suitable for search and rescue missions, surveillance, and inspections in various environments</p>
+        </div>
+        <div class="timeline-item" id="item-4">
+            <h3 class="timeline-date">2021</h3>
+            <img src="./pics/DJI-Air-2S-drone.jpg" alt="Image description" class="timeline-image">
+            <p class="timeline-description">The DJI Air 2S was released, boasting a 1-inch sensor capable of 20MP stills and 5.4K video. This drone combined high-quality imaging with advanced flight modes like MasterShots, enabling users to capture cinematic content effortlessly. It bridged the gap between consumer and professional drones with its versatile features.</p>
+        </div>
+        <div class="timeline-item" id="item-5">
+            <h3 class="timeline-date">2022</h3>
+            <img src="./pics/nM3Sh6LdxcvkR8EQzFbWSo-970-80.jpg" alt="Image description" class="timeline-image">
+            <p class="timeline-description">The Autel Evo Lite+ entered the market, offering a variable aperture camera (f/2.8-f/11) and 50MP resolution. It was designed for enthusiasts and semi-professionals seeking high-quality photography and videography in a portable drone, with a strong emphasis on low-light performance.</p>
+        </div>
+        <div class="timeline-item" id="item-6">
+            <h3 class="timeline-date">2023</h3>
+            <img src="./pics/OIP.jpeg" alt="Image description" class="timeline-image">
+            <p class="timeline-description">The Skydio 2+ was introduced, showcasing next-level autonomous flight capabilities with its advanced AI-driven obstacle avoidance and tracking. This drone was particularly popular for action sports and cinematic filming, where precise and dynamic camera movements were essential.</p>
+        </div>
+        <div class="timeline-item" id="item-7">
+            <h3 class="timeline-date">2024</h3>
+            <img src="./pics/OIP (1).jpeg" alt="Image description" class="timeline-image">
+            <p class="timeline-description">The DJI Inspire 3 was launched, catering to the professional filmmaking industry with its full-frame 8K camera, interchangeable lenses, and dual-control system. It set a new benchmark for aerial cinematography, allowing for highly detailed and cinematic shots previously achievable only with much larger and more expensive equipment..</p>
+        </div>
+    </div>
+
+    <div id="progress-bar-container">
+        <div id="line">
+            <div id="line-progress"></div>
+            <div id="drone-icon"></div>
+        </div>
+        <ul>
+            <li class="step active" onclick="navigateToStep(1)">April 2018</li>
+            <li class="step" onclick="navigateToStep(2)">April 2019</li>
+            <li class="step" onclick="navigateToStep(3)">April 2020</li>
+            <li class="step" onclick="navigateToStep(4)">April 2021</li>
+            <li class="step" onclick="navigateToStep(5)">April 2022</li>
+            <li class="step" onclick="navigateToStep(6)">April 2023</li>
+            <li class="step" onclick="navigateToStep(7)">April 2024</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
